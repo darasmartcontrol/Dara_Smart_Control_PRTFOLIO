@@ -2,41 +2,66 @@
 
 # PORTFOLIO
 
-# Embedded Systems & R&D Engineering Portfolio
+Dara Smart Control
 
-Embedded Systems & R&D Engineer specializing in industrial automation, intelligent sensing, embedded firmware, control systems, and product development.
+Industrial Embedded Systems & Intelligent Automation Portfolio
 
-This portfolio showcases selected industrial projects, including embedded firmware, mechanical design, and control engineering.
-This repository presents selected projects in embedded systems, intelligent control, robotics, and industrial automation. Detailed implementations are organized in dedicated repositories.
+Dara Smart Control develops embedded systems, intelligent sensing solutions, and industrial automation products for real-world applications.
 
-Featured Industrial Products
-1. Yarn Detect Smart Sensor 
-2. Industrial Color Mixing Machine 
-3. Networked Control Systems (MATLAB)
+This portfolio presents selected industrial products and engineering projects developed by Dara Smart Control, including embedded firmware, electronic systems, mechanical design, control algorithms, and industrial prototypes.
+
+Featured Products & Engineering Solutions
+
+1.	Yarn Detect Smart Sensor
+2.	Industrial Textile Color Mixing Machine
+3.	Wireless Industrial Robot Controller
+4.	Networked Control & Intelligent Systems
+________________________________________
+
 
                              Industrial Yarn Detect Smart Sensor
 
 ![Yarn Sensor](images/2CH_sensor.jpg)
 
-Developed an industrial optical sensing system for textile machinery featuring adaptive signal processing, high-speed STM32 firmware, and custom mechanical design.
+Dara Smart Control developed an industrial optical yarn detection system for textile machinery, combining high-speed embedded processing, adaptive signal analysis, and custom mechanical/electronic design.
 
- Description:
-• Real-time optical yarn detection system
-• Developed for industrial textile machines 
+Product Description
+
+•	Real-time optical yarn breakage detection
+
+•	Designed for industrial textile machines
+
+•	High-speed sensor signal acquisition
+
+•	Embedded intelligent detection algorithms
 
 Embedded Features:
-• STM32G0/G4 firmware 
-• Adaptive signal processing 
-• CAN communication
-• NRF24 wireless controller
-•Timer-triggered sampling
-•ADC, DMA, Timers, PWM
-•WS2812 LED control
-•IR communication
-•UART/I2C/SPI interfaces
-•Industrial prototype development
 
-links to Firmware Repositories:
+•	STM32G0/G4 microcontroller platforms
+
+•	Adaptive signal processing
+
+•	CAN communication
+
+•	NRF24 wireless communication
+
+•	Timer-triggered high-speed sampling
+
+•	ADC and DMA-based acquisition
+
+•	Timer and PWM control
+
+•	WS2812 LED control
+
+•	IR communication
+
+•	UART / I2C / SPI interfaces
+
+•	Industrial prototype development
+
+![Yarn Sensor](images/2CH_sensor3.png)
+
+Firmware Repositories:
 
 [12-Channel Yarn Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor)
 
@@ -44,12 +69,9 @@ links to Firmware Repositories:
 
 [Prototype Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor)
 
-![Yarn Sensor](images/2CH_sensor3.png)
-
-
 [CAN Bus Yarn Sensor_firmware](https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
 
-links to Hardware Repositories:
+Hardware & Mechanical Design:
 
 [12-Channel Yarn Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/12%20channel_optic_yarn%20detect%20sensor)
 
@@ -61,9 +83,9 @@ links to Hardware Repositories:
 
                              Industrial Textile Dye Mixing Machine
                                           
-Embedded firmware for an industrial textile color mixing machine implementing PID temperature control, user-defined temperature profiles, custom serial communication with HMI, and real-time process management.
+Dara Smart Control developed an embedded control system for an industrial textile color mixing machine, providing accurate temperature control, process automation, and human-machine interface integration.
 
-Features:
+System  Features:
 
 • PID temperature controller 
 
@@ -83,131 +105,159 @@ Features:
 
 • HMI integration 
 
-• Progress indication using NeoPixels 
+•	NeoPixel-based process indication 
 
-• Process logging 
+• Process monitoring and logging 
 
-• Automatic shutdown 
+• Automatic shutdown management
 
-Hardware:
+Hardware Platform:
 
-•STM32G431 
+• STM32G431 microcontroller
 
-•TRIAC heater 
+• TRIAC heater control
 
-•Thermistor 
+• Thermistor temperature measurement
 
-•Cooling fan 
+• Cooling fan system
 
-•NeoPixels 
+• NeoPixels indicators
 
-•HMI tablet 
+• HMI tablet interface
 
-Algorithms:
+Control Algorithms:
 
-•Median filtering 
+• Median filtering 
 
-•Piecewise linear interpolation 
+• Piecewise linear interpolation 
 
-•Adaptive calibration 
+• Adaptive calibration 
 
-•PID controller 
+• PID controller 
 
-•State machine
+• State machine based process control
 
-Link to hardware repository:
+Design Repository:
 
 [Industrial Color Mixing Machine Design](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_maker)
 
 ![Yarn Sensor](images/Color_mixing_machine2.jpg)
 
-link to embedded software  repository:
+Firmware repository:
 
 [Industrial Color Mixing Machine firmware](https://github.com/darasmartcontrol/Industrial-Color-Mixing-Machine)
 
 
 
-                            wireless robot controller
-                                                      
- Description:
+                            wireless Industrial  robot controller
+                            
+Dara Smart Control developed a wireless embedded controller based on two STM32 microcontrollers and an nRF24L01 communication system.                                             
+ Hardware Architecture
  
-two STM32 microcontrollers and an nRF24L01 transceiver.
+Transmitter
 
-Hardware:
-
-Transmitter (STM32G030K6T6)
-
-The handheld transmitter includes:
-
-• Dual analog joysticks (4 ADC channels)
-
-• 4 push buttons
-
-• Battery voltage monitoring
-
-• WS2812 NeoPixel status LEDs (Timer + DMA)
-
-• Buzzer
-
-• nRF24L01 wireless module (SPI)
-
-The receiver STM32G030C8T6 side:
-
-• Four DC motors using PWM
-
-• Two servo motors
-
-• nRF24L01 wireless communication
+STM32G030K6T6
 
 Features:
 
-• STM32 HAL drivers
+•	Dual analog joysticks
 
-• DMA-based ADC acquisition
+•	Four ADC channels
 
-• DMA-driven WS2812 LED driver
+•	Four push buttons
 
-• SPI communication with nRF24L01
+•	Battery voltage monitoring
 
-• Automatic ACK handling
+•	WS2812 NeoPixel status LEDs
 
-• Dynamic payload support
+•	Timer + DMA LED driver
 
-• Random address binding
+•	Buzzer interface
 
-• Flash memory storage of binding information
+•	nRF24L01 wireless communication using SPI
 
-• Battery monitoring
+Receiver
 
-• Wireless joystick control
+STM32G030C8T6
 
-• Four DC motor outputs
+Features:
 
-• Two servo outputs
+•	Four DC motor PWM outputs
 
-link to Firmware Repository:
+•	Two servo motor outputs
+
+•	nRF24L01 wireless communication
+
+Embedded Features
+
+•	STM32 HAL-based firmware
+
+•	DMA ADC acquisition
+
+•	DMA-driven WS2812 LED driver
+
+•	SPI communication
+
+•	Automatic ACK handling
+
+•	Dynamic payload support
+
+•	Wireless binding system
+
+•	Flash memory storage
+
+•	Battery monitoring
+
+•	Multi-channel motor control
+
+Firmware Repository
 
 [NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
 
                          Networked Control Systems
                                              
-Implementations of Model Predictive Control (MPC), Fuzzy Control, event-triggered control, networked control systems, multi-agent systems, communication scheduling, Hybrid Petri Nets, and optimization techniques using YALMIP and TOMLAB.
+Dara Smart Control develops advanced control algorithms and simulation frameworks for intelligent and networked systems.
 
-• MATLAB/Simulink simulations 
+Implemented research and engineering projects include:
 
-• Model Predictive Control (MPC) 
+•	Model Predictive Control (MPC)
 
-• Event-triggered communication 
+•	Fuzzy Control
 
-• Optimization using YALMIP/TOMLAB 
+•	Event-triggered control
+
+•	Networked control systems
+
+•	Multi-agent systems
+
+•	Communication scheduling
+
+•	Hybrid Petri Nets
+
+•	Optimization algorithms
+
+Tools & Platforms
+
+•	MATLAB / Simulink
+
+•	YALMIP
+
+•	TOMLAB
 
 Repository:
 
 [MATLAB-Control-Engineering](https://github.com/darasmartcontrol/MATLAB)
 
 -----------------------------------------
-                                            
-
-
+                                         
+About Dara Smart Control
+Dara Smart Control focuses on developing intelligent embedded solutions that combine:
+•	Embedded firmware
+•	Industrial electronics
+•	Sensor systems
+•	Control engineering
+•	Mechanical product development
+•	Industrial automation
+Our goal is to transform engineering concepts into reliable industrial products.
 
 
