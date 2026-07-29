@@ -252,9 +252,13 @@ Repository:
                                          
 About Dara Smart Control
 Dara Smart Control focuses on developing intelligent embedded solutions that combine:
+
 •	Embedded firmware
+
 •	Industrial electronics
+
 •	Sensor systems
+
 •	Control engineering
 •	Mechanical product development
 •	Industrial automation
