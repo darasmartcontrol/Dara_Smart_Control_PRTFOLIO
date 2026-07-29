@@ -260,8 +260,11 @@ Dara Smart Control focuses on developing intelligent embedded solutions that com
 •	Sensor systems
 
 •	Control engineering
+
 •	Mechanical product development
+
 •	Industrial automation
+
 Our goal is to transform engineering concepts into reliable industrial products.
 
 
