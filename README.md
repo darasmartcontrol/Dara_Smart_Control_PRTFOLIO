@@ -23,6 +23,10 @@ ________________________________________
 
 ![Yarn Sensor](images/2CH_sensor.jpg)
 
+![Yarn Sensor](images/2CH_sensor3.png)
+
+![Yarn Sensor](images/12CH_sensor2.jpg)
+
 Dara Smart Control developed an industrial optical yarn detection system for textile machinery, combining high-speed embedded processing, adaptive signal analysis, and custom mechanical/electronic design.
 
 Product Description
@@ -59,13 +63,9 @@ Embedded Features:
 
 •	Industrial prototype development
 
-![Yarn Sensor](images/2CH_sensor3.png)
-
 Firmware Repositories:
 
 [12-Channel Yarn Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor)
-
-![Yarn Sensor](images/12CH_sensor2.jpg)
 
 [Prototype Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor)
 
