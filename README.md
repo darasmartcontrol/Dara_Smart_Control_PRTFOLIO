@@ -12,12 +12,34 @@ Featured Products & Engineering Solutions
 2.	Industrial Textile Color Mixing Machine
 3.	@Work Robot Electronics Platform (PCB engineering project)
 4.	Wireless Industrial Robot Controller (Firmware development)
-5.	Networked Control & Intelligent Systems
 ________________________________________
 
 # Core Engineering Capabilities
 
-Dara Smart Control provides complete product development from concept to industrial prototype, including embedded firmware, electronics, PCB design, mechanical engineering, and intelligent control systems.
+Dara Smart Control provides complete product development from concept to industrial prototype, integrating embedded software, electronics, mechanical engineering, and intelligent control systems.
+
+## Embedded Systems & Firmware Development
+
+STM32-based embedded systems
+
+Real-time embedded firmware development
+
+ADC/DMA-based signal acquisition
+
+Timer and PWM control
+
+Sensor interfacing and signal processing
+
+Motor and actuator control
+
+Communication protocols:
+- CAN
+- RS-485
+- UART
+- SPI
+- I²C
+- Wireless communication (nRF24L01)
+- Embedded debugging and prototype validation
 
 ## Electronics & PCB Design
 
@@ -53,9 +75,40 @@ Dara Smart Control designs custom embedded electronics for industrial automation
   
 - Prototype validation and testing
 
+## ndustrial Automation & Control Systems
+
+- Industrial process automation
+
+- Temperature control systems
+
+- PID controllers
+
+- Adaptive calibration algorithms
+
+- State-machine based control
+
+- Trajectory generation
+
+- HMI integration
+
+- Data monitoring and logging
+
+##Mechanical Product Development
+
+- Industrial product mechanical design
+  
+- Sensor housing design
+
+- Assembly design
+
+- Prototype development
+
+- 3D CAD modeling
+
+- Manufacturing-oriented mechanical design
 --------------------------------------------------
 
-                             Industrial Yarn Detect Smart Sensor
+                            1.  Industrial Yarn Detect Smart Sensor
 
 ![Yarn Sensor](images/2CH_sensor.jpg)
 
@@ -139,7 +192,7 @@ Hardware & Mechanical Design:
   
 - Industrial optical sensor interface
 
-                             Industrial Textile Dye Mixing Machine
+                             2. Industrial Textile Dye Mixing Machine
                                           
 Dara Smart Control developed an embedded control system for an industrial textile color mixing machine, providing accurate temperature control, process automation, and human-machine interface integration.
 
@@ -233,7 +286,7 @@ Our PCB designs commonly incorporate:
   
 - Design for Manufacturing (DFM)
 
-                            Industrial PCB Design Projects
+                           3. Industrial PCB Design Projects
 
 @Work Robot — Robotic Platform Electronics Design
 
@@ -288,7 +341,7 @@ Datasheet analysis
 ![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/%40Work_Robot/%40work_robot_pcb.jpg)
 
 
-                            Wireless Industrial Robot Controller
+                            4. Wireless Industrial Robot Controller
                             
 Dara Smart Control developed a wireless embedded controller based on two STM32 microcontrollers and an nRF24L01 communication system.                                             
  Hardware Architecture
@@ -353,7 +406,8 @@ Firmware Repository
 
 [NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
 
-                     ## Technologies
+
+## Technologies
 
 Microcontrollers:
 
