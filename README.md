@@ -10,6 +10,7 @@ Dara Smart Control develops embedded systems, intelligent sensing solutions, and
 
 This portfolio presents selected industrial products and engineering projects developed by Dara Smart Control, including embedded firmware, electronic systems, mechanical design, control algorithms, and industrial prototypes.
 
+
 Featured Products & Engineering Solutions
 
 1.	Yarn Detect Smart Sensor
@@ -18,6 +19,47 @@ Featured Products & Engineering Solutions
 4.	Networked Control & Intelligent Systems
 ________________________________________
 
+---
+
+# Core Engineering Capabilities
+
+Dara Smart Control provides complete product development from concept to industrial prototype, including embedded firmware, electronics, PCB design, mechanical engineering, and intelligent control systems.
+
+## Electronics & PCB Design
+
+Dara Smart Control designs custom embedded electronics for industrial automation and intelligent sensing applications.
+
+### Hardware Design Expertise
+
+- STM32-based embedded systems
+- 
+- Multi-layer PCB design
+- 
+- Mixed-signal analog and digital circuits
+- 
+- Industrial-grade components
+- 
+- Galvanic isolation
+- 
+- High-speed digital interfaces
+- 
+- CAN, RS-485, Ethernet, USB, SPI, I²C, UART
+- 
+- Sensor interface circuits
+- 
+- Motor driver electronics
+- 
+- Power supply design
+- 
+- EMI / EMC / ESD-aware PCB layout
+- 
+- Design for Manufacturing (DFM)
+- 
+- Design for Assembly (DFA)
+- 
+- Prototype validation and testing
+
+--------------------------------------------------
 
                              Industrial Yarn Detect Smart Sensor
 
