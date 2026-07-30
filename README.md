@@ -20,25 +20,19 @@ Dara Smart Control provides complete product development from concept to industr
 
 ## Embedded Systems & Firmware Development
 
-STM32-based embedded systems
+- STM32-based embedded systems
 
-Real-time embedded firmware development
+- Real-time embedded firmware development
 
-ADC/DMA-based signal acquisition
+- ADC/DMA-based signal acquisition
 
-Timer and PWM control
+- Timer and PWM control
 
-Sensor interfacing and signal processing
+- Sensor interfacing and signal processing
 
-Motor and actuator control
+- Motor and actuator control
 
-Communication protocols:
-- CAN
-- RS-485
-- UART
-- SPI
-- I²C
-- Wireless communication (nRF24L01)
+- Communication protocols:- CAN - RS-485 - UART - SPI - I²C - Wireless communication (nRF24L01)
 - Embedded debugging and prototype validation
 
 ## Electronics & PCB Design
