@@ -203,6 +203,89 @@ Firmware repository:
 
 [Industrial Color Mixing Machine firmware](https://github.com/darasmartcontrol/Industrial-Color-Mixing-Machine)
 
+## PCB Design
+
+![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/Dye_mixing_machine/Dye_machine_top_pcb.jpg)
+
+![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/Dye_mixing_machine/Dye_machine_pcb_top.png)
+
+[see more photos](https://github.com/darasmartcontrol/PCB_Design/tree/main/Dye_mixing_machine)
+
+### Highlights
+
+Our PCB designs commonly incorporate:
+
+- Industrial-grade components
+- 
+- Galvanic isolation
+- 
+- Multi-layer PCB architecture
+- 
+- High-speed communication interfaces
+- 
+- STM32 microcontrollers
+- 
+- Robust power distribution
+- 
+- EMC/ESD-conscious layout
+- 
+- Design for Manufacturing (DFM)
+
+                            Industrial PCB Design Projects
+
+@Work Robot — Robotic Platform Electronics Design
+
+Role: Electronics Design Engineer
+
+Contribution: PCB design, hardware architecture, component selection, and manufacturing preparation
+
+Project Overview:
+
+Designed the main electronic control PCB for an industrial robotic platform. The board integrates power management, motor control interfaces, communication modules, and peripheral connections required for robot operation.
+
+Key Hardware Features
+
+Multi-layer PCB design for industrial robotic application
+
+STM32-based embedded control architecture (if applicable)
+
+Motor driver interfaces
+
+Power supply and voltage regulation circuits
+
+Protection circuits (reverse polarity, over-current, filtering)
+
+Communication interfaces:
+
+CAN / RS485 / UART / SPI / I2C (only list what exists)
+
+Sensor and actuator connectors
+
+EMI/EMC-aware layout considerations
+
+Manufacturing-ready design documentation
+
+Engineering Work:
+
+Schematic capture
+
+PCB layout and routing
+
+Component selection
+
+Design for manufacturability (DFM)
+
+Production files generation (Gerber, BOM, Pick & Place)
+
+Tools:
+
+Easy EDA
+
+Datasheet analysis
+
+![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/%40Work_Robot/%40work_robot_3d_pcb.png)
+
+![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/%40Work_Robot/%40work_robot_pcb.jpg)
 
 
                             wireless Industrial  robot controller
