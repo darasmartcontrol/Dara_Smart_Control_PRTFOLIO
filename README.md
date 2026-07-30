@@ -1,8 +1,6 @@
 # Dara_Smart_Control_PORTFOLIO
 
-# PORTFOLIO
-
-Dara Smart Control
+# Dara Smart Control
 
                             Industrial Embedded Systems & Intelligent Automation Portfolio
 
