@@ -87,7 +87,7 @@ Dara Smart Control designs custom embedded electronics for industrial automation
 
 - Data monitoring and logging
 
-##Mechanical Product Development
+## Mechanical Product Development
 
 - Industrial product mechanical design
   
