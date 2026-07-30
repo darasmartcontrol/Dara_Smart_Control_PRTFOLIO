@@ -2,7 +2,7 @@
 
                             Industrial Embedded Systems & Intelligent Automation Portfolio
 
-Dara Smart Control develops industrial embedded systems, intelligent sensing platforms, and automation solutions integrating electronics, firmware, control algorithms, and mechanical engineering.
+Dara Smart Control develops industrial embedded systems, intelligent sensing platforms, and automation solutions integrating electronics, firmware, control systems, and mechanical engineering.
 This portfolio presents selected industrial products and engineering projects developed by Dara Smart Control, including embedded firmware, electronic systems, mechanical design, control algorithms, and industrial prototypes.
 
 
@@ -10,8 +10,8 @@ Featured Products & Engineering Solutions
 
 1.	Yarn Detect Smart Sensor
 2.	Industrial Textile Color Mixing Machine
-3.	@Work Robot Electronics Platform (PCB engineering project)
-4.	Wireless Industrial Robot Controller (Firmware development)
+3.	@Work Robot Electronics Platform (Industrial PCB Design)
+4.	Wireless Industrial Robot Controller (Embedded Firmware & Communication)
 ________________________________________
 
 # Core Engineering Capabilities
@@ -41,8 +41,8 @@ Dara Smart Control designs custom embedded electronics for industrial automation
 
 ### Hardware Design Expertise
 
-- STM32-based embedded systems
-  
+- MCU-based industrial electronics
+
 - Multi-layer PCB design
   
 - Mixed-signal analog and digital circuits
@@ -110,7 +110,7 @@ Dara Smart Control designs custom embedded electronics for industrial automation
 
 ![Yarn Sensor](images/12CH_sensor2.jpg)
 
-Dara Smart Control developed an industrial optical yarn detection system for textile machinery, combining high-speed embedded processing, adaptive signal analysis, and custom mechanical/electronic design. The system was designed from prototype stage to industrial deployment, including sensor electronics, embedded firmware, communication architecture, and mechanical integration.
+Dara Smart Control developed an industrial optical yarn detection system for textile machinery, combining real-time embedded processing, adaptive signal analysis, and custom mechanical/electronic design. The system was designed from prototype stage to industrial deployment, including sensor electronics, embedded firmware, communication architecture, and mechanical integration.
 
 Product Description
 
@@ -140,7 +140,7 @@ Embedded Features:
 
 •	WS2812 LED control
 
-•	IR communication
+•	IR communication interface
 
 •	UART / I2C / SPI interfaces
 
@@ -180,7 +180,7 @@ Hardware & Mechanical Design:
   
 - Low-noise analog front-end
   
-- High-speed STM32G4 controller
+- STM32G4-based real-time controller
   
 - CAN communication
   
@@ -200,7 +200,7 @@ System  Features:
 
 • Automatic calibration mode 
 
-• Reference trajectory prediction (temperature )
+• - Temperature reference trajectory prediction
 
 • Heater TRIAC phase-angle control 
 
@@ -269,8 +269,8 @@ Our PCB designs commonly incorporate:
 - Galvanic isolation
   
 - Multi-layer PCB architecture
-- 
-- High-speed communication interfaces
+  
+- - Industrial communication interfaces
   
 - STM32 microcontrollers
   
@@ -304,7 +304,7 @@ Key Hardware Features:
 
 - Protection circuits (reverse polarity, over-current, filtering)
   
-- Communication interfaces:CAN / RS485 / UART / SPI / I2C (only list what exists)
+- Industrial communication and peripheral interfaces:CAN / RS485 / UART / SPI / I2C
 
 - Sensor and actuator connectors
 
@@ -314,21 +314,21 @@ Key Hardware Features:
 
 Engineering Work:
 
-Schematic capture
+- Schematic capture
 
-PCB layout and routing
+- PCB layout and routing
 
-Component selection
+- Component selection
 
-Design for manufacturability (DFM)
+- Design for manufacturability (DFM)
 
-Production files generation (Gerber, BOM, Pick & Place)
+- Production files generation (Gerber, BOM, Pick & Place)
 
 Tools:
 
-Easy EDA
+- Easy EDA
 
-Datasheet analysis
+- Datasheet analysis
 
 ![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/%40Work_Robot/%40work_robot_3d_pcb.png)
 
@@ -337,7 +337,7 @@ Datasheet analysis
 
                             4. Wireless Industrial Robot Controller
                             
-Dara Smart Control developed a wireless embedded controller based on two STM32 microcontrollers and an nRF24L01 communication system.                                             
+Dara Smart Control developed a wireless embedded controller based on two STM32 microcontrollers and an nRF24L01 communication system. The system demonstrates complete embedded product development, including wireless communication, input acquisition, motor control, and user interface feedback.                                         
  Hardware Architecture
  
 Transmitter
@@ -400,6 +400,8 @@ Firmware Repository
 
 [NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
 
+Note:
+Some industrial projects were developed in collaboration with industrial partners. Due to confidentiality constraints, only publicly shareable design information is presented.
 
 ## Technologies
 
@@ -437,8 +439,6 @@ Software:
 
 - STM32CubeIDE
   
-- MATLAB/Simulink
-  
 - EasyEDA
 
 Design:
@@ -448,6 +448,7 @@ Design:
 - SolidWorks
   
 - Mechanical integration
+  
 -----------------------------------------
                                          
                           About Dara Smart Control
