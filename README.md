@@ -32,7 +32,7 @@ Dara Smart Control provides complete product development from concept to industr
 
 - Motor and actuator control
 
-- Communication protocols:- CAN - RS-485 - UART - SPI - I²C - Wireless communication (nRF24L01)
+- Communication protocols:CAN / RS-485 / UART / SPI / I²C / Wireless communication (nRF24L01)
 - Embedded debugging and prototype validation
 
 ## Electronics & PCB Design
