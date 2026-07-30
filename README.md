@@ -1,2 +1,270 @@
 # Dara_Smart_Control_PRTFOLIO
 
+# PORTFOLIO
+
+Dara Smart Control
+
+Industrial Embedded Systems & Intelligent Automation Portfolio
+
+Dara Smart Control develops embedded systems, intelligent sensing solutions, and industrial automation products for real-world applications.
+
+This portfolio presents selected industrial products and engineering projects developed by Dara Smart Control, including embedded firmware, electronic systems, mechanical design, control algorithms, and industrial prototypes.
+
+Featured Products & Engineering Solutions
+
+1.	Yarn Detect Smart Sensor
+2.	Industrial Textile Color Mixing Machine
+3.	Wireless Industrial Robot Controller
+4.	Networked Control & Intelligent Systems
+________________________________________
+
+
+                             Industrial Yarn Detect Smart Sensor
+
+![Yarn Sensor](images/2CH_sensor.jpg)
+
+![Yarn Sensor](images/2CH_sensor3.png)
+
+![Yarn Sensor](images/12CH_sensor2.jpg)
+
+Dara Smart Control developed an industrial optical yarn detection system for textile machinery, combining high-speed embedded processing, adaptive signal analysis, and custom mechanical/electronic design.
+
+Product Description
+
+•	Real-time optical yarn breakage detection
+
+•	Designed for industrial textile machines
+
+•	High-speed sensor signal acquisition
+
+•	Embedded intelligent detection algorithms
+
+Embedded Features:
+
+•	STM32G0/G4 microcontroller platforms
+
+•	Adaptive signal processing
+
+•	CAN communication
+
+•	NRF24 wireless communication
+
+•	Timer-triggered high-speed sampling
+
+•	ADC and DMA-based acquisition
+
+•	Timer and PWM control
+
+•	WS2812 LED control
+
+•	IR communication
+
+•	UART / I2C / SPI interfaces
+
+•	Industrial prototype development
+
+Firmware Repositories:
+
+[12-Channel Yarn Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor)
+
+[Prototype Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor)
+
+[CAN Bus Yarn Sensor_firmware](https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
+
+Hardware & Mechanical Design:
+
+[12-Channel Yarn Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/12%20channel_optic_yarn%20detect%20sensor)
+
+[6-Channel Yarn Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/6%20channel_optic_yarn%20detect%20sensor)
+
+[2-Channel Yarn Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/2_channel_sensor))
+
+[Prototype Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/prototype_detection_textile_sensor)
+
+                             Industrial Textile Dye Mixing Machine
+                                          
+Dara Smart Control developed an embedded control system for an industrial textile color mixing machine, providing accurate temperature control, process automation, and human-machine interface integration.
+
+System  Features:
+
+• PID temperature controller 
+
+• User-defined temperature-time profiles 
+
+• Piecewise linear trajectory generation 
+
+• Automatic calibration mode 
+
+• Future reference prediction 
+
+• Heater TRIAC phase-angle control 
+
+• Cooling fan control 
+
+• Custom serial communication protocol 
+
+• HMI integration 
+
+•	NeoPixel-based process indication 
+
+• Process monitoring and logging 
+
+• Automatic shutdown management
+
+Hardware Platform:
+
+• STM32G431 microcontroller
+
+• TRIAC heater control
+
+• Thermistor temperature measurement
+
+• Cooling fan system
+
+• NeoPixels indicators
+
+• HMI tablet interface
+
+Control Algorithms:
+
+• Median filtering 
+
+• Piecewise linear interpolation 
+
+• Adaptive calibration 
+
+• PID controller 
+
+• State machine based process control
+
+Design Repository:
+
+[Industrial Color Mixing Machine Design](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_maker)
+
+![Yarn Sensor](images/Color_mixing_machine2.jpg)
+
+Firmware repository:
+
+[Industrial Color Mixing Machine firmware](https://github.com/darasmartcontrol/Industrial-Color-Mixing-Machine)
+
+
+
+                            wireless Industrial  robot controller
+                            
+Dara Smart Control developed a wireless embedded controller based on two STM32 microcontrollers and an nRF24L01 communication system.                                             
+ Hardware Architecture
+ 
+Transmitter
+
+STM32G030K6T6
+
+Features:
+
+•	Dual analog joysticks
+
+•	Four ADC channels
+
+•	Four push buttons
+
+•	Battery voltage monitoring
+
+•	WS2812 NeoPixel status LEDs
+
+•	Timer + DMA LED driver
+
+•	Buzzer interface
+
+•	nRF24L01 wireless communication using SPI
+
+Receiver
+
+STM32G030C8T6
+
+Features:
+
+•	Four DC motor PWM outputs
+
+•	Two servo motor outputs
+
+•	nRF24L01 wireless communication
+
+Embedded Features
+
+•	STM32 HAL-based firmware
+
+•	DMA ADC acquisition
+
+•	DMA-driven WS2812 LED driver
+
+•	SPI communication
+
+•	Automatic ACK handling
+
+•	Dynamic payload support
+
+•	Wireless binding system
+
+•	Flash memory storage
+
+•	Battery monitoring
+
+•	Multi-channel motor control
+
+Firmware Repository
+
+[NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
+
+                         Networked Control Systems
+                                             
+Dara Smart Control develops advanced control algorithms and simulation frameworks for intelligent and networked systems.
+
+Implemented research and engineering projects include:
+
+•	Model Predictive Control (MPC)
+
+•	Fuzzy Control
+
+•	Event-triggered control
+
+•	Networked control systems
+
+•	Multi-agent systems
+
+•	Communication scheduling
+
+•	Hybrid Petri Nets
+
+•	Optimization algorithms
+
+Tools & Platforms
+
+•	MATLAB / Simulink
+
+•	YALMIP
+
+•	TOMLAB
+
+Repository:
+
+[MATLAB-Control-Engineering](https://github.com/darasmartcontrol/MATLAB)
+
+-----------------------------------------
+                                         
+About Dara Smart Control
+Dara Smart Control focuses on developing intelligent embedded solutions that combine:
+
+•	Embedded firmware
+
+•	Industrial electronics
+
+•	Sensor systems
+
+•	Control engineering
+
+•	Mechanical product development
+
+•	Industrial automation
+
+Our goal is to transform engineering concepts into reliable industrial products.
+
+
