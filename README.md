@@ -216,19 +216,19 @@ Firmware repository:
 Our PCB designs commonly incorporate:
 
 - Industrial-grade components
-- 
+  
 - Galvanic isolation
-- 
+  
 - Multi-layer PCB architecture
 - 
 - High-speed communication interfaces
-- 
+  
 - STM32 microcontrollers
-- 
+  
 - Robust power distribution
-- 
+  
 - EMC/ESD-conscious layout
-- 
+  
 - Design for Manufacturing (DFM)
 
                             Industrial PCB Design Projects
