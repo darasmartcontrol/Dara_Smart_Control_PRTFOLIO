@@ -123,9 +123,11 @@ Hardware & Mechanical Design:
 
 ## PCB Design
 
-![Top PCB](...)
+![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/Textile_machine_sensors/12CH_1CH_pcb.jpg)
 
-![Bottom PCB](...)
+![Top PCB](https://github.com/darasmartcontrol/PCB_Design/blob/main/Textile_machine_sensors/12CH_yarn_detect_sensor_top_pcb.jpg)
+
+[see more photos](https://github.com/darasmartcontrol/PCB_Design/tree/main/Textile_machine_sensors)
 
 ### Highlights
 
