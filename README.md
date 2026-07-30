@@ -121,6 +121,20 @@ Hardware & Mechanical Design:
 
 [Prototype Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/prototype_detection_textile_sensor)
 
+## PCB Design
+
+![Top PCB](...)
+
+![Bottom PCB](...)
+
+### Highlights
+
+- 4-layer industrial PCB
+- Low-noise analog front-end
+- High-speed STM32G4 controller
+- CAN communication
+- Industrial optical sensor interface
+
                              Industrial Textile Dye Mixing Machine
                                           
 Dara Smart Control developed an embedded control system for an industrial textile color mixing machine, providing accurate temperature control, process automation, and human-machine interface integration.
