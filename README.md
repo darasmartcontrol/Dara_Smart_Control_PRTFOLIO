@@ -1,7 +1,5 @@
 # Dara_Smart_Control_PORTFOLIO
 
-# Dara Smart Control
-
                             Industrial Embedded Systems & Intelligent Automation Portfolio
 
 Dara Smart Control develops industrial embedded systems, intelligent sensing platforms, and automation solutions integrating electronics, firmware, control algorithms, and mechanical engineering.
