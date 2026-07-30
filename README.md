@@ -69,7 +69,7 @@ Dara Smart Control designs custom embedded electronics for industrial automation
   
 - Prototype validation and testing
 
-## ndustrial Automation & Control Systems
+## Industrial Automation & Control Systems
 
 - Industrial process automation
 
